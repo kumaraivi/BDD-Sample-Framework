@@ -14,7 +14,7 @@ public class homePage_Locators {
 	@FindBy(xpath="//div[@class='FPdoLc lJ9FBc']/center/input[1]")
 	public WebElement searchButton;
 	
-	@FindBy(xpath="//h3[text()='Gmail Google']")
+	@FindBy(xpath="//h3[text()='Gmail - Google']")
 	public WebElement gmailHome;
 	
 	public homePage_Locators() {
