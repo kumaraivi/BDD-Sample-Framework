@@ -17,8 +17,6 @@ Feature: Google search validate
       | url                      | text  |
       | https://www.google.co.in | gmail |
       | https://www.google.co.in | Hello |
-	  | https://www.google.co.in | Hello |
-	  | https://www.google.co.in | Hello |
       
   @Sanity @Regression @Smoke @GoogleSearch
   Scenario: Validate Google Seach Fail
